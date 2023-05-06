@@ -6,11 +6,16 @@ Installation
 To install the app, follow these steps:
 
 Clone the repository to your local machine.
+
 Copy the .env.example file to .env and update it with your environment variables.
+
 Run composer install to install the required dependencies.
+
 Run php artisan key:generate to generate an application key.
 Run php artisan migrate to run the database migrations.
+
 Run php artisan db:seed to seed the database with initial data.
+
 Usage
 To use the app, navigate to the URL where it's hosted.
 Credits
