@@ -1,6 +1,6 @@
 # ScrabbleClubPortal
  Scrabble Club Portal
-This is a web application for managing a Scrabble club. The app allows users to create an account, view their profile, and participate in games with other members.
+This is a web application for managing a Scrabble club.
 
 Installation
 To install the app, follow these steps:
