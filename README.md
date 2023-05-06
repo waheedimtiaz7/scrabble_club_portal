@@ -16,6 +16,8 @@ Run php artisan migrate to run the database migrations.
 
 Run php artisan db:seed to seed the database with initial data.
 
+Run php artisan serve.
+
 Usage
 To use the app, navigate to the URL where it's hosted.
 Credits
