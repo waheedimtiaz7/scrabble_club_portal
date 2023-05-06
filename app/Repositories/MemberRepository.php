@@ -4,9 +4,6 @@ namespace App\Repositories;
 
 use App\Models\Member;
 use Illuminate\Pagination\LengthAwarePaginator;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\DB;
-use PhpParser\Node\Expr\Array_;
 
 class MemberRepository implements MemberRepositoryInterface
 {
