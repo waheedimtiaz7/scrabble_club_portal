@@ -27,7 +27,7 @@
         <!--begin::Menu Container-->
         <div id="kt_aside_menu" class="aside-menu my-4 scroll ps ps--active-y" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500" style="height: 405px; overflow: hidden;">
             <ul class="menu-nav">
-                <li class="menu-item {{ in_array(Request::segment(1),['leader_board'])?'menu-item-active':'' }}" aria-haspopup="true">
+                <li class="menu-item {{ in_array(Request::segment(1),[''])?'menu-item-active':'' }}" aria-haspopup="true">
                     <a href="{{ route('leader_board') }}" class="menu-link">
                     <span class="svg-icon menu-icon">
                         <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->

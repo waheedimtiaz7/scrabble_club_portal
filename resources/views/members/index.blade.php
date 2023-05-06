@@ -78,7 +78,7 @@
                                             <td>
                                                 <a class="btn btn-warning" href="{{ route('members.edit',['member'=>$member->id]) }}">{{ __('labels.edit') }}</a>
                                                 <a class="btn btn-info" href="{{ route('members.show',['member'=>$member->id]) }}">{{ __('labels.see_profile') }}</a>
-                                                <a class="btn btn-info" href="{{ route('members.delete',['id'=>$member->id]) }}">{{ __('labels.delete') }}</a>
+                                                <a class="btn btn-danger" href="{{ route('members.delete',['id'=>$member->id]) }}">{{ __('labels.delete') }}</a>
                                             </td>
                                         </tr>
                                     @endforeach

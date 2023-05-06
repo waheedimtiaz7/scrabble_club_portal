@@ -28,8 +28,6 @@
     <!--end::Page-->
 </div>
 <!--end::Main-->
-<!-- begin::User Panel-->
-@include("layouts.common.right_bar")
 <div id="kt_scrolltop" class="scrolltop">
     <span class="svg-icon">
         <!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Up-2.svg-->
